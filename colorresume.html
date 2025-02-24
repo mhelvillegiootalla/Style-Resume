@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline and Internal CSS</title>
+    <style>
+        body {
+            background-color: rgba(194, 170, 133, 0.836);
+            margin: 100px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .heading-2 {
+            color: rgb(77, 60, 7);
+        }
+        #name {
+            height: 12px;
+            text-align: center;
+        }
+        #email, #phone, #address, #linkedIn {
+            display: flex;
+            justify-content: center;
+            height: 12px;
+        }
+        #table tr:nth-child(even) {
+            background-color: rgb(153, 113, 76);
+        }
+        #table tr:nth-child(odd) {
+            background-color: rgb(180, 124, 71);
+        }
+        #table {
+            border: 2px;
+            border-collapse: collapse;
+            border-style: solid;
+            text-align: center;
+            width: 100%;
+        }
+        a:hover {
+            color: rgb(66, 38, 6);
+        }
+    </style>
+</head>
+<body>
+<img style="border: 2px solid; display: block; margin: 0 auto;" src="c:\Users\jamec\Downloads\downloadgio.jpg" width="250px" height="250px">
+<h1 id="name">Otalla, Mhelville Gio C.</h1>
+<span id="email"><b>Email: </b><a target="_blank" href="giootalla@gmail.com">giootalla@gmail.com</a></span><br>
+<span id="phone"><b>Phone: </b>0976-090-2583</span><br>
+<span id="address"><b>Address: </b>Purok 1, Gubat Laput, Mexico, Pampanga</span><br>
+<span id="linkedIn"><b>LinkedIn: </b><a href="https://www.facebook.com/share/1J25zWvhGR/">https://www.facebook.com/share/1J25zWvhGR/</a></span><br>
+<hr>
+<div id="below-the-hr">
+<h2 id="career-objective" class="heading-2">Career Objective</h2>
+<p>
+    To secure a challenging position as a Game Developer where I can contribute
+    my skills and creativity to the development of innovative and engaging games.    
+</p>
+<h2 id="expertise-bio" class="heading-2">Expertise BIO</h2>
+    <p>
+        Concised & Skill-Focused, Creative and Personality Driven, Detailed & Achievement Oriented.
+    </p>
+    <h2 id="education" class="heading-2">Education</h2>
+    <p>
+        <ul>
+            <li>B.S Information technology/Pampanga State Agricultural University (2024-Present)</li>
+            <li> Science, Technology, Engineering, and Mathematics/San Juan High School (2018-2024)</li>
+            <li>Laput Elementary School (2011-2018)</li>  
+        </ul>
+    </p>
+    <h2 id="experience" class="heading-2">Work Experience or Seminars and Workshop Attended</h2>
+    <ul>
+        <li>Developed and implemented basic game mechanics,
+            such as player movement and simple enemy AI.</li>
+       <li>Assisted senior developers with bug testing, level design, and asset integration.</li>
+    </ul>
+    <h2 id="hardware-skills" class="heading-2">Hardware Skills</h2>
+    <ul>
+        <li>Understanding of CPU, GPU, RAM, and storage components
+            and their impact on game performance.</li>
+       <li>Building or upgrading gaming PCs.</li>
+    </ul>
+    <h2 id="software-skills" class="heading-2">Software Skills</h2>
+    <ul>
+        <li>Programming languages: HTML,Python and CSS</li>
+            <li>debugging codes</li>
+    </ul>
+    <h2 id="additional-skills" class="heading-2">Additional Skills</h2>
+        <ul>
+            <li>Time management</li>
+            <li>Creativity</li>
+            <li>Testing Framework</li>
+        </ul>
+    <h2 class="heading-2">Character Reference</h2>
+  <table id="table" cellpadding="4px" cellspacing="0px">
+     <tr>
+        <th>&nbsp;FULL NAME</th>
+        <th>&nbsp;DESIGNATION</th>
+        <th>&nbsp;EMAIL</th>
+        <th>&nbsp;CONTACT NUMBER</th>
+     </tr>
+     <tr>
+        <th>&nbsp;Cora B. Buan</th>
+        <th>&nbsp;Teacher III</th>
+        <th>&nbsp;buancoraa@gmail.com</th>
+        <th>&nbsp;0998-897-4423</th> 
+     </tr>
+     <tr>
+        <th>&nbsp;Rosalie Q. Dela Cruz</th>
+        <th>&nbsp;Teacher II</th>
+        <th>&nbsp;rosieqqcruz@gmail.com</th>
+        <th>&nbsp;0987-298-0972</th> 
+     </tr>
+     <tr>
+        <th>&nbsp;Jhen R. Gomez</th>
+        <th>&nbsp;Programme</th>
+        <th>&nbsp;gomezjhennn@gmail.com</th>
+        <th>&nbsp;0996-287-2783</th> 
+     </tr>
+  </table>
+    <p>I wholeheartedly pledge that all the statements mentioned in my resume, including my skills, education, and experience, are completely true and accurate.</p>
+<ul type="disc">
+    <li><a href="#summary">Summary></a></li>
+    <li><a href="#education">Education></a></li>
+    <li><a href="#experience">Experience></a></li>
+    <li><a href="#hardware-skills">Hardware-Skills></a></li>
+    <li><a href="#software-skills">Software Skills></a></li>
+</ul>
+<a id="back-to-top" href="#html">Back to Top</a>
+</div>
+</body>
+</html>
